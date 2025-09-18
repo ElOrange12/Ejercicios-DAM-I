@@ -42,15 +42,29 @@ Si el "input" recibido es numérico el programa utilizando de nuevo las estructu
 
 Entonces ya estaría la función desarrollada.
 
-Ahora en otro archivo podemos hacer un ejemplo de como se exportaria, este archivo lo llamaremos <main>, lo haremos usando un "import" y poniendo el nombre del archibo en el que esta guardada la función de la siguiente manera:
+Ahora en otro archivo podemos hacer un ejemplo de como se exportaria, este archivo lo llamaremos _main_, lo haremos usando un "import" y poniendo el nombre del archibo en el que esta guardada la función de la siguiente manera:
 
 ```
     from funcionRaizcuadrada import raizCuadrada
 ```
-Por ultimo podemos comprobar distintos casos usando "print" dentro del programa
+Por ultimo podemos comprobar distintos casos usando "print" dentro del programa con un comando simple como:
+
+```
+    print(raizCuadrada(4))
+```
 
 A continuación se muestra el ejercicio resuelto:
 
+_main.py_
+```
+    from funcionRaizcuadrada import raizCuadrada
+
+    print(raizCuadrada('a'))
+    print(raizCuadrada('4'))
+    print(raizCuadrada(-1))
+    print(raizCuadrada(4))
+```
+_funcionRaizcuadrada.py_
 ```
     def raizCuadrada (radicando):
         '''
