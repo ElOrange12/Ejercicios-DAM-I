@@ -20,7 +20,7 @@ Por ultimo debe mostrar por pantalla cual es el videojuego favorito y el doble d
     print('Tu videojuego favorito es', juego, 'y el doble de la puntuación es', entero*2)
 ```
 
-A continuación se muestra un ejemplo del código del ejercicio resuelto.
+A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
 ```
     '''
