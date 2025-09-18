@@ -57,6 +57,11 @@ A continuación se muestra el ejercicio resuelto:
 
 _main.py_
 ```
+    '''
+        main
+        v1.0 Daniel Oliveira Vidal
+        Este programa importa y prueba una función
+    '''
     from funcionRaizcuadrada import raizCuadrada
 
     print(raizCuadrada('a'))
@@ -69,6 +74,7 @@ _funcionRaizcuadrada.py_
     def raizCuadrada (radicando):
         '''
             Función de raíz cuadrada
+            v1.0 Daniel Oliveira Vidal
             Entradas: radicando que se espera que sea numérico
             Salidas: resultado de la raíz cuadrada como número (o cero si es fallo)
             Capturas de error:
