@@ -1,4 +1,4 @@
-Vamos a realizar un programa clasifique al usuario en una categoría de baloncesto dependiendo de la edad que tenga, entonces le mostraremos que edad tiene y en la categoría que se encuentra además que si sobre pasa los 40 años se le alagara diciendo que tiene experiencia.
+Vamos a realizar un programa que clasifique al usuario en una categoría de baloncesto dependiendo de la edad que tenga, entonces le mostraremos que edad tiene y en la categoría que se encuentra además que si sobre pasa los 40 años se le alagara diciendo que tiene experiencia.
 
 Para empezar deberemos preguntarle la edad al usuario, de la siguiente forma:
 
