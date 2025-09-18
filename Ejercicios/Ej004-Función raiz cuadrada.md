@@ -53,7 +53,7 @@ Por ultimo podemos comprobar distintos casos usando "print" dentro del programa 
     print(raizCuadrada(4))
 ```
 
-A continuación se muestra el ejercicio resuelto:
+A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
 _main.py_
 ```
