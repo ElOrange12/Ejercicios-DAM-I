@@ -29,7 +29,7 @@ Después de conseguir en que categoría se encuentra se le muestra al usuario la
 
 Y por ultimo si el usuario sobrepasa la edad de 40 se le alaga mostrando que tiene experiencia en el juego, exactamente igual que lo anterior.
 
-A continuación se muestra el ejercicio resuelto:
+A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
 ```
 '''
