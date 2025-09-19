@@ -1,5 +1,7 @@
 Vamos a realizar un programa que clasifique al usuario en una categoría de baloncesto dependiendo de la edad que tenga, entonces le mostraremos que edad tiene y en la categoría que se encuentra además que si sobre pasa los 40 años se le alagara diciendo que tiene experiencia.
 
+---
+
 Para empezar deberemos preguntarle la edad al usuario, de la siguiente forma:
 
 ```
@@ -28,6 +30,8 @@ Después de conseguir en que categoría se encuentra se le muestra al usuario la
 ```
 
 Y por ultimo si el usuario sobrepasa la edad de 40 se le alaga mostrando que tiene experiencia en el juego, exactamente igual que lo anterior.
+
+---
 
 A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
@@ -71,5 +75,7 @@ if edad > 40:
 
 - Tener en cuenta que la variable de edad debe ser un número entero usando la función `int`.
 - Cuidado con el sangrado después de las condiciones del `if`/`elif`/`else`.
+
+---
 
 Como hemos visto las estructuras de control `if`/`elif`/`else` nos ayudan a identificar cosas en base a las condiciones que les damos proporcionando un mejor rendimiento al programa.
