@@ -40,7 +40,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
     print('Tu videojuego favorito es', juego, 'y el doble de la puntuación es', entero*2)
 ```
 
->**Notas:**
+> **Notas:**
 
 - Tener cuidado con las comillas abiertas y cerradas a la hora de añadir las variables en la función `print`.
 
