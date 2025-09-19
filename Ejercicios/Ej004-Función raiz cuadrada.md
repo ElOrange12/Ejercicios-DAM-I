@@ -8,9 +8,9 @@ Para comenzar definiremos la función de la siguiente manera:
 
 Para poder hacer la raíz cuadrada deberemos importar de la librería `math` la función sqrt la encargada de hacer la raíz, la importaremos tal que así:
 
-`
+```
     from math import sqrt
-`
+```
 
 Ahora para calcular la raíz deberemos saber si el radicando es un número (`int`, `float` o `complex`) para ello pondremos unas condiciones utilizando las estructuras de control `if` y `else`, de la siguiente forma:
 
