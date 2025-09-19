@@ -6,7 +6,7 @@ Para empezar deberemos preguntarle la edad al usuario, de la siguiente forma:
     edad = int(input('Dime tu edad: '))
 ```
 
-Con el valor dado de la edad utilizaremos las estructuras de control ```if```/```elif```/```else``` para poder saber en que categoría se encuentra, lo que conseguimos así es no ejecutar todo el código para ahorrar rendimiento en el programa esto lo conseguimos de las siguientes formas:
+Con el valor dado de la edad utilizaremos las estructuras de control `if`/`elif`/`else` para poder saber en que categoría se encuentra, lo que conseguimos así es no ejecutar todo el código para ahorrar rendimiento en el programa esto lo conseguimos de las siguientes formas:
 
 ```
     if edad < 8:
@@ -21,7 +21,7 @@ Con el valor dado de la edad utilizaremos las estructuras de control ```if```/``
         categoria = 'senior'
 ```
 
-Después de conseguir en que categoría se encuentra se le muestra al usuario la edad que nos proporciono y la categoría que corresponde a esa edad, esto lo haremos mediante un ```print``` de la siguiente forma:
+Después de conseguir en que categoría se encuentra se le muestra al usuario la edad que nos proporciono y la categoría que corresponde a esa edad, esto lo haremos mediante un `print` de la siguiente forma:
 
 ```
     print('Tu edad es de', edad,'entonces estas en la categoría', categoria)
@@ -69,7 +69,7 @@ if edad > 40:
 
 **Notas**
 
-- Tener en cuenta que la variable de edad debe ser un número entero usando la función ```int```.
-- Cuidado con el sangrado después de las condiciones del ```if```/```elif```/```else```.
+- Tener en cuenta que la variable de edad debe ser un número entero usando la función `int`.
+- Cuidado con el sangrado después de las condiciones del `if`/`elif`/`else`.
 
-Como hemos visto las estructuras de control ```if```/```elif```/```else``` nos ayudan a identificar cosas en base a las condiciones que les damos proporcionando un mejor rendimiento al programa.
+Como hemos visto las estructuras de control `if`/`elif`/`else` nos ayudan a identificar cosas en base a las condiciones que les damos proporcionando un mejor rendimiento al programa.
