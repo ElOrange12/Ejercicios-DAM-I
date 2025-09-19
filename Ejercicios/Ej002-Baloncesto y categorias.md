@@ -67,7 +67,7 @@ if edad > 40:
     print('Además eres un veterano con experiencia en la cancha')
 ```
 
-*Notas*
+**Notas**
 
 - Tener en cuenta que la variable de edad debe ser un número entero usando la función "int".
 - Cuidado con el sangrado después de las condiciones del "if/elif/else".
