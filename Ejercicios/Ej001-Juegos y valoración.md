@@ -26,8 +26,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
     '''
     Juegos y Valoración
     v1.0 Daniel Oliveira Vidal
-    Este programa pide un videojuego una puntuación de ese juego y muestra por pantalla el nombre del juego y el doble de su
-    puntuación. 
+    Este programa pide un videojuego una puntuación de ese juego y muestra por pantalla el nombre del juego y el doble de su puntuación. 
     '''
     
     juego = input('Cuál es tu videojuego favorito: ')
