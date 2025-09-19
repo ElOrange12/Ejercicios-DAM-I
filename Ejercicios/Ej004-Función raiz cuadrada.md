@@ -108,7 +108,7 @@ _funcionRaizcuadrada.py_
                 return 0
 ```
 
-*Notas:*
+**Notas:**
 - Añadir un "DocString" dentro de la función para saber que cosas entran salen y que problemas soluciona
 - Añadir "prints" en cada acción para hacer una depuración adecuada
 - Las funciones deben ir escritas en camellCase
