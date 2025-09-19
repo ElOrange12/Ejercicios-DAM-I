@@ -39,6 +39,6 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
 **Notas:**
 
-- Tener cuidado con las comillas abiertas y cerradas a la hora de añadir las variables en la función ```print```.
+- Tener cuidado con las comillas abiertas y cerradas a la hora de añadir las variables en la función `print`.
 
-Como hemos visto la función ```int``` funciona para convertir una cadena de caracteres a un número entero pudiendo así operar con él.
+Como hemos visto la función `int` funciona para convertir una cadena de caracteres a un número entero pudiendo así operar con él.
