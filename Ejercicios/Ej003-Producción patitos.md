@@ -31,7 +31,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
                 print('Día', k, 'del mes', j, 'del año', i,': 10 patitos de goma fabricados') 
 ```
 
-*Notas:*
+**Notas:**
 - Tener cuidado a la hora de poner los rangos, el rango llega a un número menos del segundo número
 - Tener cuidado con los sangrados y los dos puntos después de poner el bucle "for"
 - Tener en cuenta el orden de la anidación
