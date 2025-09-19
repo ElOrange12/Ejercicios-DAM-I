@@ -42,7 +42,7 @@ Si el "input" recibido es numérico el programa utilizando de nuevo las estructu
 
 Entonces ya estaría la función desarrollada.
 
-Ahora en otro archivo podemos hacer un ejemplo de como se exportaria, este archivo lo llamaremos _main_, lo haremos usando un "import" y poniendo el nombre del archibo en el que esta guardada la función de la siguiente manera:
+Ahora en otro archivo podemos hacer un ejemplo de como se exportaría, este archivo lo llamaremos _main_, lo haremos usando un "import" y poniendo el nombre del archibo en el que esta guardada la función de la siguiente manera:
 
 ```
     from funcionRaizcuadrada import raizCuadrada
