@@ -1,5 +1,7 @@
 Vamos a realizar un ejercicio el cual pide el nombre del videojuego favorito del usuario y la valoración que le atribuye entonces el programa muestra por pantalla el nombre del videojuego y el doble de su puntuación.
 
+---
+
 Para empezar necesitamos preguntarle al usuario su videojuego favorito y almacenarlo en una variable, por ejemplo de esta forma:
 
 ```
@@ -19,6 +21,7 @@ Por ultimo debe mostrar por pantalla cual es el videojuego favorito y el doble d
 ```
     print('Tu videojuego favorito es', juego, 'y el doble de la puntuación es', entero*2)
 ```
+---
 
 A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
@@ -40,5 +43,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
 **Notas:**
 
 - Tener cuidado con las comillas abiertas y cerradas a la hora de añadir las variables en la función `print`.
+
+---
 
 Como hemos visto la función `int` funciona para convertir una cadena de caracteres a un número entero pudiendo así operar con él.
