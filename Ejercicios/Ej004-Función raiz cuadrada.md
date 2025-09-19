@@ -110,7 +110,7 @@ _funcionRaizcuadrada.py_
 
 **Notas:**
 - Añadir un "DocString" dentro de la función para saber que cosas entran salen y que problemas soluciona
-- Añadir ```prints``` en cada acción para hacer una depuración adecuada
+- Añadir ```print``` en cada acción para hacer una depuración adecuada
 - Las funciones deben ir escritas en camellCase
 
 En conclusión hemos visto como desarrollar un función la cual podemos utilizar cuando queramos sin necesidad de reescribir toda la función completa y así hacer el trabajo de programación mas ameno y limpio.
