@@ -1,5 +1,7 @@
 Vamos a realizar un programa que defina una función que realice una raíz cuadrada, dentro de la función analizaremos si el `input` recibido es el adecuado para poder calcular dicha raíz si no el programa responderá con el resultado 0.
 
+---
+
 Para comenzar definiremos la función de la siguiente manera:
 
 ```
@@ -52,6 +54,8 @@ Por ultimo podemos comprobar distintos casos usando `print` dentro del programa 
 ```
     print(raizCuadrada(4))
 ```
+
+---
 
 A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
@@ -112,5 +116,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
 - Añadir un "DocString" dentro de la función para saber que cosas entran salen y que problemas soluciona
 - Añadir `print` en cada acción para hacer una depuración adecuada
 - Las funciones deben ir escritas en camellCase
+
+---
 
 En conclusión hemos visto como desarrollar un función la cual podemos utilizar cuando queramos sin necesidad de reescribir toda la función completa y así hacer el trabajo de programación mas ameno y limpio.
