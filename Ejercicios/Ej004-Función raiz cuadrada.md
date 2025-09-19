@@ -6,7 +6,7 @@ Para comenzar definiremos la función de la siguiente manera:
     def raizCuadrada (radicando):
 ```
 
-Para poder hacer la raíz cuadrada deberemos importar de la librería "math" la función sqrt la encargada de hacer la raíz, la importaremos tal que así:
+Para poder hacer la raíz cuadrada deberemos importar de la librería ```math``` la función sqrt la encargada de hacer la raíz, la importaremos tal que así:
 
 ```
     from math import sqrt
