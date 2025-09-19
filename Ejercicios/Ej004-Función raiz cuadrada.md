@@ -55,7 +55,7 @@ Por ultimo podemos comprobar distintos casos usando ```print``` dentro del progr
 
 A continuación se muestra un ejemplo del código del ejercicio resuelto:
 
--- _main.py_
+- _main.py_
 ```
     '''
         main
@@ -69,7 +69,7 @@ A continuación se muestra un ejemplo del código del ejercicio resuelto:
     print(raizCuadrada(-1))
     print(raizCuadrada(4))
 ```
--- _funcionRaizcuadrada.py_
+- _funcionRaizcuadrada.py_
 ```
     def raizCuadrada (radicando):
         '''
