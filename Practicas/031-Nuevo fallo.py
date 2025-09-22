@@ -3,7 +3,6 @@ def hazDivision (dividendo, divisor):
         resultado = dividendo/divisor
     else:
         resultado = 0
-        return resultado
     return resultado
     
 print(hazDivision(4, 'a'))
