@@ -80,4 +80,14 @@ Igual que en los títulos tener en cuenta que hay que espaciar despues de poner 
 2. Enumeración 2
 
 ---
-***
+Se pueden hacer citas poniendo un `>` delante del texto siguiendo la regla del espaciado como antes.
+
+```
+> Cita importante
+```
+
+Esto se ve de la siguiente manera:
+
+---
+
+> Cita importante
