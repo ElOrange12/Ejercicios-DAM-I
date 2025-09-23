@@ -91,3 +91,16 @@ Esto se ve de la siguiente manera:
 ---
 
 > Cita importante
+
+---
+
+Otras cosas de interes pueden ser, las lineas que puse a lo largo del texto que separan secciones, esto se hace poniendo en una linea tres guiones (`---`) o poniendo tres asteriscos (`***`), tambien el bloque de codigo que es poniendo tres tildes abiertas al principio y al final es decir:
+
+---
+
+```
+    ```
+        Esto es un bloque de codigo
+    ```
+```
+
