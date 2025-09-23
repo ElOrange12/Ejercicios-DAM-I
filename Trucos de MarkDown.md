@@ -51,7 +51,7 @@ Para poner títulos se usan almohadillas y dependiendo el número de almohadilla
 
 - `# Título 1` `## Título 2` `### Título 3`
 
-Estos se ven de la siguiente manera
+Tener claro que para que funcione se debe poner un espacio después de las almohadillas, estos se ven de la siguiente manera:
 
 ---
 # Título 1
@@ -59,3 +59,22 @@ Estos se ven de la siguiente manera
 ### Título 3
 ---
 
+Para hacer listas hay dos formas usar `-` para listas no numeradas y usar un número seguido de un punto (`1.`) para las númeradas, es decir
+
+```
+- Lista 1
+- Lista 2
+
+1. Enumeración 1
+2. Enumeración 2
+```
+
+Igual que en los títulos tener en cuenta que hay que espaciar despues de poner el codigo para que funcione, las listas se ven de la siguiente forma:
+
+---
+- Lista 1
+- Lista 2
+
+1. Enumeración 1
+2. Enumeración 2
+---
