@@ -1,7 +1,9 @@
 # Trucos para MarkDown
 ## Funciones del texto
-- Para poner negrita algo de texto por ejemplo:
+Para poner negrita algo de texto por ejemplo:
 
-**Palabra**
+- **Palabra**
 
-se deben usar dos astericos delante y atrás `**Palabra**`
+se deben usar dos astericos delante y atrás de la siguiente forma:
+
+`**Palabra**`
