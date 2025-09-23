@@ -3,13 +3,13 @@
 
 ---
 
-Para poner negrita algo de texto por ejemplo:
+Para poner en negrita algo de texto por ejemplo:
 
 - **Algo de texto**
 
-Se deben usar dos astericos delante y atrás de la siguiente forma:
+Se deben usar dos asteriscos delante y detrás, de la siguiente forma:
 
-`**Algo de texto**`
+- `**Algo de texto**`
 
 ---
 
@@ -17,6 +17,16 @@ Para poner en cursiva algo de texto por ejemplo:
 
 - *Algo de texto*
 
-Se puede hacer de dos formas, poniendo un asterisco delante y atrás o poner una barra baja es decir:
+Se puede hacer de dos formas, poniendo un asterisco delante y detrás, o poner una barra baja es decir:
 
-`*Algo de texto*` o `_Algo de texto_`
+- `*Algo de texto*` o `_Algo de texto_`
+
+---
+
+Para poner en negrita y en cursiva algo de texto por ejemplo:
+
+- ***Algo de texto***
+
+Se deben poner tres asteriscos delante y detrás, de la siguiente forma:
+
+- `***Algo de texto***`
