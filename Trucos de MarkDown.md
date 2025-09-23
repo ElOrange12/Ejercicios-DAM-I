@@ -1,5 +1,5 @@
 # Trucos para MarkDown
-## Funciones del texto
+## Tipos de texto
 
 ---
 
@@ -40,3 +40,22 @@ Para poner tachado algo de texto por ejemplo:
 Se deben poner dos virgulillas delante y detrás, de la siguiente forma:
 
 - `~~Algo de texto~~`
+
+---
+
+## Opciones de orden
+
+---
+
+Para poner títulos se usan almohadillas y dependiendo el número de almohadillas el título tendra una importancía diferente, es decir:
+
+- `# Título 1` `## Título 2` `### Título 3`
+
+Estos se ven de la siguiente manera
+
+---
+# Título 1
+## Título 2
+### Título 3
+---
+
