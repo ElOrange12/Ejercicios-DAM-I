@@ -43,6 +43,12 @@ Se deben poner dos virgulillas delante y detrás, de la siguiente forma:
 
 ---
 
+Para poner algo de texto como si fuera codigo por ejemplo
+
+- `.`Esto se veria como cogido`.`
+
+---
+
 ## Opciones de orden
 
 ---
@@ -96,11 +102,10 @@ Esto se ve de la siguiente manera:
 
 Otras cosas de interes pueden ser, las lineas que puse a lo largo del texto que separan secciones, esto se hace poniendo en una linea tres guiones (`---`) o poniendo tres asteriscos (`***`), tambien el bloque de codigo que es poniendo tres tildes abiertas al principio y al final es decir:
 
----
-
 ```
     ```
-        Esto es un bloque de codigo
+      Esto es un bloque de codigo
     ```
 ```
+Esto se veria tal y como se ve el codigo de antes.
 
