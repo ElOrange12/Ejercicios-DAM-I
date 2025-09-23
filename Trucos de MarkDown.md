@@ -116,5 +116,6 @@ Esto se veria tal y como se ve el codigo de antes.
 
 > Se pueden hacer tablas, añadir imagenes, añadir enlaces... , pero lo básico para poder hacer los ejercicios que propone José Vicente sería esto.
 
-> Mas cosas, curiosidades y trucos en GitHub en especifico, nos lo enseñara Carlos en entornos de desarrollo
-> .
+> Mas cosas, curiosidades y trucos en GitHub en especifico, nos lo enseñara Carlos en entornos de desarrollo.
+
+> Cualquier duda o problema me decirs :D 
