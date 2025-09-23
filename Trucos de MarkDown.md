@@ -115,4 +115,5 @@ Esto se veria tal y como se ve el codigo de antes.
 ---
 
 > Se pueden hacer tablas, añadir imagenes, añadir enlaces... , pero lo básico para poder hacer los ejercicios que propone José Vicente sería esto.
+
 > Mas cosas y curiosidades, nos lo enseñara Alfonso en lenguaje de marcas y trucos en GitHub en especifico nos lo enseñara Carlos.
