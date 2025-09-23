@@ -80,6 +80,4 @@ Igual que en los títulos tener en cuenta que hay que espaciar despues de poner 
 2. Enumeración 2
 
 ---
-
-Hola
----
+***
