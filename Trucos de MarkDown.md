@@ -111,3 +111,7 @@ Otras cosas de interes pueden ser, las lineas que puse a lo largo del texto que 
     ```
 ```
 Esto se veria tal y como se ve el codigo de antes.
+
+---
+
+> Se pueden hacer tablas, añadir imagenes, añadir enlaces... , pero lo básico para poder hacer los ejercicios que propone José Vicente sería esto.
