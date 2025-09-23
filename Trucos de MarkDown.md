@@ -30,3 +30,13 @@ Para poner en negrita y en cursiva algo de texto por ejemplo:
 Se deben poner tres asteriscos delante y detrás, de la siguiente forma:
 
 - `***Algo de texto***`
+
+---
+
+Para poner tachado algo de texto por ejemplo:
+
+- ~~Algo de texto~~
+
+Se deben poner dos virgulillas delante y detrás, de la siguiente forma:
+
+- `~~Algo de texto~~`
