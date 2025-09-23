@@ -1,5 +1,5 @@
 # Trucos para MarkDown
-## Tipos de texto
+### Tipos de texto
 
 ---
 
