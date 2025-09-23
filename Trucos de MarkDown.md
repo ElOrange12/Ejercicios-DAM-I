@@ -1,0 +1,2 @@
+# Trucos para MarkDown
+-
