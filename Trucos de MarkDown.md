@@ -72,9 +72,14 @@ Para hacer listas hay dos formas usar `-` para listas no numeradas y usar un nú
 Igual que en los títulos tener en cuenta que hay que espaciar despues de poner el codigo para que funcione, las listas se ven de la siguiente forma:
 
 ---
+
 - Lista 1
 - Lista 2
 
 1. Enumeración 1
 2. Enumeración 2
+
+---
+
+Hola
 ---
