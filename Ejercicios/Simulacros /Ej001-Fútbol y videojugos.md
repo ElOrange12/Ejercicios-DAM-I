@@ -1,4 +1,4 @@
-Vamos a realizar un ejercicio para aprender el funcionamiento de las variables, este programa dirá mi equipo favorito y otro al cual le tengo aprecio y declara varias variables.
+Vamos a realizar un ejercicio para aprender el funcionamiento de las variables, este programa dirá mi equipo favorito y otro al cual le tengo aprecio y declara varias variables. 
 
 ---
 
