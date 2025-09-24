@@ -1,3 +1,141 @@
+Vamos a realizar un ejercicio el cual hagamos que se enfrenten dos dragones, primero pediremos los datos de los dragones, los clasificaremos en base a su edad y los pondremos a entrenar durante 3 días, este entrenamiento ira en base también de la edad del dragón.
+
+Estos pelearan hasta que alguno tenga su vida a 0, estos comienzan 50 puntos de vida.
+
+---
+
+Para empezar pediremos datos como el nombre y la edad de cada dragón que lo pondrá el usuario e inicializaremos algunas variables que utilizaremos mas adelante, lo haremos de la siguiente manera:
+
+```
+nombre_dragon_a = input('Dime el nombre del dragón A: ')
+edad_dragon_a = input('Dime la edad del dragón A: ')
+    
+clasificacion_dragon_a = ''
+fuerza_dragon_a = 0
+resistencia_dragon_a = 0
+vida_dragon_a = 50
+danyo_ataque_a = 0
+```
+
+Después nos aseguraremos de que la edad esta en números enteros con un simple `try`-`except`, de la siguiente forma:
+
+```
+try:
+    edad_dragon_a = int(edad_dragon_a)
+    
+except:
+    edad_dragon_a = 100
+```
+
+Ahora dependiendo de la edad lo clasificaremos en "Joven", "Adulto" y "Anciano", esto lo haremos con una estructura de control, es decir, usaremos `if`/`elif`/`else` de la siguiente manera:
+
+```
+if edad_dragon_a < 50:
+    clasificacion_dragon_a = 'Joven'
+    
+elif edad_dragon_a >= 50 and edad_dragon_a < 200:
+    clasificacion_dragon_a = 'Adulto'
+    
+else:
+    clasificacion_dragon_a = 'Anciano'
+```
+
+Continuamos definiendo una función para calcular la fuerza base de los dragones, esto lo haremos en base a la edad del dragón de la siguiente forma:
+
+```
+def calculaFuerzaBase(edad, letra_dragon):
+
+    if letra_dragon == 'a':
+        if edad_dragon_a < 50:
+            fuerza_base_a = 3
+        
+        elif edad_dragon_a >= 50 and edad_dragon_a < 200:
+            fuerza_base_a = 4
+        
+        else:
+            fuerza_base_a = 2
+        
+        return fuerza_base_a
+    
+    else:
+        if edad_dragon_b < 50:
+            fuerza_base_b = 3
+        
+        elif edad_dragon_b >= 50 and edad_dragon_a < 200:
+            fuerza_base_b = 4
+        
+        else:
+            fuerza_base_b = 2
+        
+        return fuerza_base_b
+```
+
+Ya tenemos la edad, el nombre, lo hemos clasificado y hemos hecho una función que nos da la fuerza base de los dragones, ahora necesitamos entrenarlos durante 3 días para esto utilizaremos un bucle `for`.
+
+El entrenamiento se basa en la edad que tenga, dependiendo cuantos años tengan los dragones se incrementara mas o menos su fuerza y resistencia, para eso usaremos estructuras de control como los `if`/`elif`/`else` de la siguiente forma:
+
+```
+for dia in range(1, 4):
+    
+    if clasificacion_dragon_a == "Joven":
+        fuerza_dragon_a += 2
+        resistencia_dragon_a += 2
+    elif clasificacion_dragon_a == "Adulto":
+        fuerza_dragon_a += 1
+        resistencia_dragon_a += 1
+    else:
+        fuerza_dragon_a += 1
+        resistencia_dragon_a += 1
+    
+    if clasificacion_dragon_b == "Joven":
+        fuerza_dragon_b += 2
+        resistencia_dragon_b += 2
+    elif clasificacion_dragon_b == "Adulto":
+        fuerza_dragon_b += 1
+        resistencia_dragon_b += 1
+    else:
+        fuerza_dragon_b += 1
+        resistencia_dragon_b += 1
+```
+
+Ahora teniendo ya la fuerza, la resistencia entrenadas calcularemos cuanto daño hace el dragón por turno, para esto definiremos una función que se base en la fuerza del dragón que ataca y la resistencia del dragón que recibe el ataque, esto lo haremos de la siguiente manera:
+
+```
+def turnoDeAtaque (fuerza_dragon_ataca, resistencia_dragon_defensor, letra_dragon): 
+
+    if letra_dragon == 'a':
+        danyo_ataque_a = float(fuerza_dragon_a - (resistencia_dragon_b / 2))
+        return danyo_ataque_a
+        
+    else:
+        danyo_ataque_b = float(fuerza_dragon_b - (resistencia_dragon_a / 2))
+        return danyo_ataque_b
+```
+
+Por ultimo vendría el enfrentamiento para ello usaremos un bucle `while`, este bucle estará activo hasta que uno de los dos dragones tenga la vida a 0.
+
+Dentro del bucle en cada turno atacara primero el dragón A y después el dragón B, hasta que se quede alguno de los dos sin vida, de la siguiente manera:
+
+```
+turno = 1
+while vida_dragon_a > 0 or vida_dragon_b > 0:
+    print('_____________ Turno', turno, '_____________')
+    
+    print('--> Ataca', nombre_dragon_a)
+    vida_dragon_b -= turnoDeAtaque(fuerza_dragon_a, resistencia_dragon_b, 'a')
+    
+    print('--> Ataca', nombre_dragon_b)
+    vida_dragon_a -= turnoDeAtaque(fuerza_dragon_b, resistencia_dragon_a, 'a')
+    
+    turno += 1
+```
+
+Por ultimo aclarar que a lo largo del programa se usan `print` para ir informando de que pasa dentro del programa, comprobar que la edad y los nombres, que clasificación tienen los dragones, su fuerza su resistencia...
+
+---
+
+A continuación se muestra un ejemplo del ejercicio resuelto:
+
 ```
 '''
     Duelos de dragones
@@ -67,8 +205,10 @@ elif edad_dragon_a >= 50 and edad_dragon_a < 200:
     
 else:
     clasificacion_dragon_a = 'Anciano'
-    
+print('____________________________________________')
+print('')
 print('El dragón A es un',clasificacion_dragon_a)
+print('____________________________________________')
 print('')
     
 if edad_dragon_b < 50:
@@ -79,7 +219,9 @@ elif edad_dragon_b >= 50 and edad_dragon_b < 200:
     
 else:
     clasificacion_dragon_b = 'Anciano'
-    
+
+print('____________________________________________')
+print('')
 print('El dragón B es un',clasificacion_dragon_b)
 print('')
 
@@ -188,16 +330,38 @@ while vida_dragon_a > 0 or vida_dragon_b > 0:
     
     turno += 1
     
-if vida_dragon_a <= 0:
+if vida_dragon_a > 0:
     print('_________________________________________________')
     print('')
     print('A ganado', nombre_dragon_a)
     print('_________________________________________________')
     print('')
+elif vida_dragon_b > 0:
+    print('_________________________________________________')
+    print('')
+    print('A ganado', nombre_dragon_a)
+    print('_________________________________________________')
+    print('')
+    
 else:
     print('_________________________________________________')
     print('')
-    print('A ganado', nombre_dragon_b)
+    print('Se han derribado mutuamente')
     print('_________________________________________________')
     print('')
 ```
+
+**Notas:**
+
+- Tener cuidado con las condiciones dentro de los `if`/`elif`/`else`.
+- Tener en cuenta que se debe poner un `return` dentro de las funciones para que devuelva lo que queremos
+- Tener cuidado con las condiciones dentro del bucle `while` ya que el bucle se ejecutara mientra pase lo contrario a lo que queremos que pase antes de que se acabe, es decir, si quiero que se haga hasta que algo sea 0, la condición será mientras no sea 0
+- Tener cuidado con el rango en los bucles `for` porqué el ultimo número deberá ser uno mas del cual queremos que llegue el rango
+
+---
+
+En conclusión hemos visto como usar los bucles `while` y `for` que aunque tienen la misma utilidad, la cual sería ahorrar lineas de código, se usan para cosas distintas.
+
+También hemos visto la definición de funciones que nos ayuda ha hacer ciertas funciones, valga la redundancia, que sabemos hacer nosotros rápidamente el programa le costaría varias líneas, así es como definir una función nos ayuda ha hacer algo en una sola linea de código.
+
+Esto podemos relacionarlo con simulacros anteriores ya que se utiliza todo lo aprendido en estos.
