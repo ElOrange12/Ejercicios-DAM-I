@@ -24,7 +24,7 @@ horas_jugadas = 10000
 
 ---
 
-A continuación se muestra un ejemplo del texto resuelto:
+A continuación se muestra un ejemplo del ejercicio resuelto:
 
 ```
 '''
