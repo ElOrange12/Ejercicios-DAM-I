@@ -364,4 +364,4 @@ En conclusión hemos visto como usar los bucles `while` y `for` que aunque tiene
 
 También hemos visto la definición de funciones que nos ayuda ha hacer ciertas funciones, valga la redundancia, que sabemos hacer nosotros rápidamente el programa le costaría varias líneas, así es como definir una función nos ayuda ha hacer algo en una sola linea de código.
 
-Esto podemos relacionarlo con simulacros anteriores ya que se utiliza todo lo aprendido en estos.
+Esto podemos relacionarlo con simulacros anteriores, debido que se utiliza todo lo aprendido en estos para crear este nuevo programa.
