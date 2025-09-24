@@ -46,6 +46,9 @@ doble_edad = edad_jugador * 2
 print('El doble de la edad del jugador es', doble_edad)
 ```
 
+**Notas:**
+- Tener cuidado con cerrar todos los paréntesis o comillas que se abren en funciones como el `input` o el `int`
+
 ---
 
 En conclusión hemos aprendido como utilizar la función `int` enlazando con el cambio de variables que vimos en el ejercicio anterior de cambio de variables
