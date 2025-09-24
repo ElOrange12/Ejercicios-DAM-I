@@ -1,4 +1,4 @@
-Vamos a realizar un programa que muestre por pantalla la producción que se hace cada día en una fabrica siendo esa producción siempre 10 patos de goma, lo que tendremos que hacer es que cambie el día en que se producen de manera sencilla usaremos para esto usaremos un bucle `for`.
+Vamos a realizar un programa que muestre por pantalla la producción que se hace cada día en una fabrica siendo esa producción siempre 10 patos de goma, lo que tendremos que hacer es que cambie el día en que se producen de manera sencilla usaremos para esto usaremos un bucle `for`. 
 
 ---
 
