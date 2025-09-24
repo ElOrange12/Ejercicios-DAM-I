@@ -134,7 +134,7 @@ Por ultimo aclarar que a lo largo del programa se usan `print` para ir informand
 
 ---
 
-A continuación se muestra un ejemplo del ejercicio resuelto:
+A continuación se muestra un ejemplo de código del ejercicio resuelto:
 
 ```
 '''
