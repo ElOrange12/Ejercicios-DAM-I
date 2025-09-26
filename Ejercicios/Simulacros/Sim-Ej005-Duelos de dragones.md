@@ -125,7 +125,7 @@ while vida_dragon_a > 0 or vida_dragon_b > 0:
     vida_dragon_b -= turnoDeAtaque(fuerza_dragon_a, resistencia_dragon_b, 'a')
     
     print('--> Ataca', nombre_dragon_b)
-    vida_dragon_a -= turnoDeAtaque(fuerza_dragon_b, resistencia_dragon_a, 'a')
+    vida_dragon_a -= turnoDeAtaque(fuerza_dragon_b, resistencia_dragon_a, 'b')
     
     turno += 1
 ```
@@ -134,7 +134,7 @@ Por ultimo aclarar que a lo largo del programa se usan `print` para ir informand
 
 ---
 
-A continuación se muestra un ejemplo de código del ejercicio resuelto:
+A continuación se muestra un ejemplo del ejercicio resuelto:
 
 ```
 '''
@@ -231,7 +231,7 @@ print('')
 def calculaFuerzaBase(edad, letra_dragon):
     '''
         calculaFuerzaBase
-        Entrada: Edad del dragón
+        Entrada: Edad del dragón, identificador
         Salida: Fuerza base en relación a la edad; Joven = 3, Adulto = 4, Anciano = 2 
     '''
     if letra_dragon == 'a':
@@ -312,7 +312,7 @@ def turnoDeAtaque (fuerza_dragon_ataca, resistencia_dragon_defensor, letra_drago
 ########################### Batalla de los dragones ###########################
 
 turno = 1
-while vida_dragon_a > 0 or vida_dragon_b > 0:
+while vida_dragon_a > 0 and vida_dragon_b > 0:
     print('_____________ Turno', turno, '_____________')
     print('')
     
@@ -323,8 +323,8 @@ while vida_dragon_a > 0 or vida_dragon_b > 0:
     print('')
     
     print('--> Ataca', nombre_dragon_b)
-    vida_dragon_a -= turnoDeAtaque(fuerza_dragon_b, resistencia_dragon_a, 'a')
-    print('-->',nombre_dragon_b, 'le ha quitado', turnoDeAtaque (fuerza_dragon_b, resistencia_dragon_a, 'a'),'puntos de vida a', nombre_dragon_a)
+    vida_dragon_a -= turnoDeAtaque(fuerza_dragon_b, resistencia_dragon_a, 'b')
+    print('-->',nombre_dragon_b, 'le ha quitado', turnoDeAtaque (fuerza_dragon_b, resistencia_dragon_a, 'b  '),'puntos de vida a', nombre_dragon_a)
     print('--> A', nombre_dragon_a, 'le quedan', vida_dragon_a,' puntos de vida')
     print('')
     
@@ -336,6 +336,7 @@ if vida_dragon_a > 0:
     print('A ganado', nombre_dragon_a)
     print('_________________________________________________')
     print('')
+    
 elif vida_dragon_b > 0:
     print('_________________________________________________')
     print('')
@@ -364,4 +365,4 @@ En conclusión hemos visto como usar los bucles `while` y `for` que aunque tiene
 
 También hemos visto la definición de funciones que nos ayuda ha hacer ciertas funciones, valga la redundancia, que sabemos hacer nosotros rápidamente el programa le costaría varias líneas, así es como definir una función nos ayuda ha hacer algo en una sola linea de código.
 
-Esto podemos relacionarlo con simulacros anteriores, debido que se utiliza todo lo aprendido en estos para crear este nuevo programa.
+Esto podemos relacionarlo con simulacros anteriores ya que se utiliza todo lo aprendido en estos.
